@@ -1,0 +1,228 @@
+<resources>
+    <string name="aicp_extras_title">AICP Extras</string>
+    <string name="about_title">Extrasについて</string>
+    <string name="other_title">その他</string>
+    <string name="g_community">G+ コミュニティ</string>
+    <string name="g_plus_summary">Google+ コミュニティを見に行く</string>
+    <string name="ui_title">インターフェース</string>
+    <string name="display_animations_title">表示とアニメーション</string>
+    <string name="transparency_porn_title">パネル</string>
+    <string name="notificaitons_title">通知ドロワー</string>
+    <string name="statubar_title">ステータスバー</string>
+    <string name="lockscreen_title">ロック画面</string>
+    <string name="systemui_tuner_title">システムUI調整ツール</string>
+    <string name="aicp_downloads_title">ダウンロード</string>
+    <string name="dwnld_summary">使用中の機種向けAICPのダウンロードページにアクセス</string>
+    <string name="aicp_gerrit_title">Gerrit</string>
+    <string name="gerrit_summary">Gerritにアクセスして私たちが何に取り組んでいるのかを知る</string>
+
+    <!-- Switch On/Off  -->
+    <string name="switch_on_text">ON</string>
+    <string name="switch_off_text">OFF</string>
+
+    <!-- Recents panel -->
+    <string name="recents_panel_title">アプリ履歴パネル</string>
+    <string name="show_clear_all_recents_button_title">「全てを終了」ボタン</string>
+    <string name="show_clear_all_recents_button_summary">「全てを終了」ボタンを表示する</string>
+    <string name="recents_clear_all_location_title">ボタンの表示位置</string>
+    <string name="recents_clear_all_location_top_right">右上</string>
+    <string name="recents_clear_all_location_top_left">左上</string>
+    <string name="recents_clear_all_location_top_center">中央上</string>
+    <string name="recents_clear_all_location_bottom_right">右下</string>
+    <string name="recents_clear_all_location_bottom_left">左下</string>
+    <string name="recents_clear_all_location_bottom_center">中央下</string>
+    <string name="recents_clear_all_dismiss_all_title">全てのタスクを終了する</string>
+    <string name="recents_clear_all_dismiss_all_summary">最前面のアプリも含めた全てのタスクを終了します</string>
+
+    <!-- Change Log -->
+    <string name="changelog_title">更新履歴</string>
+    <string name="changelog_title_summary">ROMの最近の更新を確認します</string>
+    <string name="changelog_error">更新履歴の読み込みに失敗しました</string>
+
+    <!-- Toast Icons -->
+    <string name="toast_icon_title">トースト通知のアイコン</string>
+    <string name="toast_icon_summary">トースト通知と共にアプリのアイコンを表示します</string>
+
+    <!-- Brightness slider -->
+    <string name="qs_brightness_slider_title">画面の明るさスライダー</string>
+    <string name="qs_brightness_slider_enabled">有効</string>
+    <string name="qs_brightness_slider_disabled">無効</string>
+
+    <string name="restarting_ui">UIの再起動中\u2026</string>
+
+    <!-- Title for the button to restart a print job. [CHAR LIMIT=25] -->
+    <string name="print_restart">再起動</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">通知の展開を強制する</string>
+    <string name="force_expanded_notifications_summary">通知の展開をサポートするアプリでのみ利用可能です</string>
+
+    <!-- Disabling immersive mode messages -->
+    <string name="disable_immersive_message_title">全画面モードのメッセージを表示しない</string>
+    <string name="disable_immersive_message_summary">全画面モード時のメッセージを全て無効化する</string>
+
+    <!-- Network traffic -->
+    <string name="traffic_category">ネットワークトラフィック</string>
+    <string name="traffic_title">トラフィック</string>
+    <string name="network_traffic_title">ネットワークトラフィック</string>
+    <string name="show_network_traffic_state">ステータスバー上のトラフィックモニター</string>
+    <string name="show_network_traffic_unit">表示単位</string>
+    <string name="show_network_traffic_frequency">更新頻度</string>
+    <string name="show_network_traffic_disable">無効</string>
+    <string name="show_network_traffic_up">送信</string>
+    <string name="show_network_traffic_down">受信</string>
+    <string name="show_network_traffic_all">送受信</string>
+    <string name="show_network_traffic_bit">ビット/秒</string>
+    <string name="show_network_traffic_byte">バイト/秒</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_hidearrow">矢印を非表示</string>
+    <string name="network_traffic_hidearrow_summary">トラフィックモニターの矢印を隠す</string>
+    <string name="network_traffic_autohide">自動的に隠す</string>
+    <string name="network_traffic_autohide_summary">非アクティブ時にトラフィックモニターを非表示にする</string>
+    <string name="network_traffic_autohide_threshold">非アクティブ判定のしきい値</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="default_string">デフォルト</string>
+
+    <!-- Superuser indicator on status bar -->
+    <string name="su_indicator">スーパーユーザーインジケーター</string>
+    <string name="su_indicator_summary_on">スーパーユーザー権限を使用するセッションがアクティブな時インジケーターを表示</string>
+    <string name="su_indicator_summary_off">CM内蔵rootの場合に限り、スーパーユーザー権限を使用するセッションがアクティブな時にインジケーターを表示するよう切り替える</string>
+
+    <!-- Carrier Label -->
+    <string name="carrier_options">キャリアラベル</string>
+    <string name="custom_carrier_label_title">カスタムキャリアラベル</string>
+    <string name="custom_carrier_label_explain">新しいラベル名を入力してください。空白のままにすると標準のラベルに戻ります。</string>
+    <string name="custom_carrier_label_notset">カスタムラベルは設定されていません</string>
+    <string name="show_carrier_title">キャリアラベル</string>
+    <string name="show_carrier_disabled">無効</string>
+    <string name="show_carrier_keyguard">ロック画面で表示</string>
+    <string name="show_carrier_statusbar">ステータスバーで表示</string>
+    <string name="show_carrier_enabled">両方で表示</string>
+    <string name="status_bar_carrier_color">ラベルの色</string>
+    <string name="status_bar_carrier_size">キャリアラベルの文字サイズ</string>
+
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">バッテリーバー</string>
+    <string name="battery_bar">バッテリーバーの位置</string>
+    <string name="battery_bar_no_navbar">バッテリーバーの位置</string>
+    <string name="battery_bar_color">バッテリーバーの色</string>
+    <string name="battery_bar_charging_color">充電時のバーの色</string>
+    <string name="battery_bar_battery_low_color">残量低下時の色</string>
+    <string name="battery_bar_cat">バッテリーバーのスタイル</string>
+    <string name="battery_bar_style_title">バッテリーバーのスタイル</string>
+    <string name="battery_bar_thickness_title">バッテリーバーの太さ</string>
+    <string name="battery_bar_animate_title">充電時のアニメーション</string>
+    <string name="battery_bar_style_regular">デフォルト</string>
+    <string name="battery_bar_style_center_mirrored">中央</string>
+    <string name="battery_bar_style_reversed">反転</string>
+
+    <!-- Headphones icon switch -->
+    <string name="show_headset_icon_title">ヘッドセットのアイコン</string>
+    <string name="show_headset_icon_summary">ヘッドセットが接続された際にアイコンを表示する</string>
+
+    <!-- Status bar temperature -->
+    <string name="status_bar_temperature_title">ステータスバーの気温表示</string>
+    <string name="status_bar_temperature_hidden">非表示</string>
+    <string name="status_bar_temperature_show_scale">スケールあり</string>
+    <string name="status_bar_temperature_hide_scale">スケールなし</string>
+    <string name="status_bar_temperature_location_title">位置</string>
+    <string name="status_bar_temperature_location_summary">ステータスバーのどこに気温を表示するか選択してください</string>
+    <string name="status_bar_temperature_location_right">右側</string>
+    <string name="status_bar_temperature_location_left">左側</string>
+    <string name="status_bar_weather_color_title">色</string>
+    <string name="status_bar_weather_size_title">フォントサイズ</string>
+    <string name="status_bar_weather_font_style_title">フォント</string>
+
+    <!-- Recents Fullscreen -->
+    <string name="recents_show_fullscreen">アプリ履歴の全画面表示</string>
+    <string name="recents_fullscreen_summary_enabled">アプリ履歴の全画面表示が有効です</string>
+    <string name="recents_fullscreen_summary_disabled">アプリ履歴の全画面表示は無効です</string>
+    <string name="recents_full_screen_clock_title">時計を表示する</string>
+    <string name="recents_full_screen_clock_summary">アプリ履歴の全画面表示時に時計を上部に表示します</string>
+    <string name="recents_full_screen_date_title">日付を表示する</string>
+    <string name="recents_full_screen_date_summary">アプリ履歴の全画面表示時に日付を上部に表示します</string>
+
+    <!-- Power menu on lock screen -->
+    <string name="powermenu_lockscreen_title">ロック画面での電源メニュー</string>
+    <string name="powermenu_lockscreen_summary">ロック画面でも電源メニューを表示する</string>
+
+   <!-- Lock screen wallpaper -->
+   <string name="lockscreen_category_title">壁紙</string>
+   <string name="lockscreen_wallpaper_title">ロック画面の壁紙</string>
+
+    <!-- OmniSwitch -->
+    <string name="omniswitch_category_title">OmniSwitch</string>
+    <string name="recents_use_omniswitch_title">アプリ履歴として使用</string>
+    <string name="recents_use_omniswitch_summary">OmniSwitchをデフォルトのアプリ履歴表示に使用します</string>
+    <string name="omniswitch_start_settings_title">設定</string>
+    <string name="omniswitch_start_settings_summary">OmniSwitchの設定</string>
+
+    <!-- Double tap to sleep on lockscreen -->
+    <string name="double_tap_sleep_anywhere_title">ダブルタップしてスリープ</string>
+    <string name="double_tap_sleep_anywhere_summary">ロック画面をダブルタップして端末をスリープさせる</string>
+
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">タスクマネージャー</string>
+    <string name="enable_task_manager_summary">タスクマネージャーの有効/無効切り替えボタンを通知領域のヘッダーに表示します</string>
+
+    <!-- Statusbar AICP logo -->
+    <string name="status_bar_logo_category_title">ステータスバー上のロゴ</string>
+    <string name="status_bar_aicp_logo_title">AICP ロゴ</string>
+    <string name="status_bar_aicp_logo_summary">ステータスバー上にAICPのロゴを表示する</string>
+    <string name="status_bar_aicp_logo_color">ロゴの色</string>
+    <string name="status_bar_aicp_logo_position">ロゴの位置</string>
+    <string name="status_bar_aicp_logo_position_summary">どこにロゴを表示するか選択してください</string>
+    <string name="status_bar_logo_position_right">右</string>
+    <string name="status_bar_logo_position_left">左</string>
+
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">音楽アプリを起動</string>
+    <string name="headset_connect_player_summary">ヘッドセット接続時にデフォルトの音楽アプリを起動する</string>
+
+
+    <!-- Membar recents -->
+    <string name="recents_show_membar_title">メモリ使用量バー</string>
+    <string name="recents_show_membar_summary">デバイスで使用可能なメモリを表示します</string>
+
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">アプリ履歴に検索バーを表示</string>
+    <string name="keywords_recents_show_searchbar">アプリ履歴 最近使ったアプリ 有効化 無効化 表示 非表示 検索バー</string>
+
+    <!-- Camera shutter sound -->
+    <string name="camera_sounds_title">カメラのシャッター音</string>
+    <string name="camera_sounds_summary">無効化はサードパーティ製のカメラアプリやHDR+モードでは機能しないことがあります</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">スクリーンショットの音</string>
+    <string name="screenshot_sound_summary">スクリーンショットの取得時に音を鳴らします</string>
+
+    <string name="brightness_icon_title">画面の明るさアイコン</string>
+    <string name="brightness_icon_summary">明るさスライダーの左に「画面の明るさ」ボタンを表示する</string>
+
+    <!-- Lockscreen Torch -->
+    <string name="keyguard_torch_title">ロック画面のトーチ</string>
+    <string name="keyguard_torch_summary">画面の消灯中に電源ボタンを長押ししてフラッシュを点灯</string>
+
+    <!-- AdAway -->
+    <string name="adaway_settings_title">AdAway</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">指紋認証のバイブレーション</string>
+    <string name="fprint_sucess_vib_summary">指紋認証に成功した際にバイブレーションを作動させる</string>
+
+
+    <!-- Statusbar 4G LTE switch -->
+    <string name="show_fourg_title">LTE表示の代わりに4G表示を使用する</string>
+    <string name="show_fourg_summary">ステータスバーの表示をLTEから4Gに置き換える</string>
+
+    <!-- Optional screenshot type -->
+    <string name="screenshot_type_title">スクリーンショットの種類</string>
+    <string name="screenshot_type_fullscreen">画面全体のスクリーンショットを取得する</string>
+    <string name="screenshot_type_partial">スクリーンショットを撮りたい範囲をドラッグで選択する</string>
+
+</resources>
+
