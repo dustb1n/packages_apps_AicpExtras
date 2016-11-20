@@ -28,7 +28,7 @@ public class HiddenAnimActivity extends Activity {
         setContentView(R.layout.animgif_layout);
 
         gifView = (GifWebView) findViewById(R.id.gif_view);
-        gifView.setGifAssetPath("file:///android_asset/yoga.gif");
+        gifView.setGifAssetPath("file:///android_asset/aokana.gif");
 
         Snackbar snackbar = Snackbar
                 .make(gifView, R.string.hidden_anim_activity_title, Snackbar.LENGTH_LONG)
