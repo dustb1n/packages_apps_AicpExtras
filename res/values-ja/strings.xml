@@ -1,9 +1,10 @@
 <resources>
     <string name="aicp_extras_title">AICP Extras</string>
-    <string name="about_title">Extrasについて</string>
+    <string name="various_shit_title">その他の設定</string>
+    <string name="about_title">AICP Extrasについて</string>
     <string name="other_title">その他</string>
-    <string name="g_community">G+ コミュニティ</string>
-    <string name="g_plus_summary">Google+ コミュニティを見に行く</string>
+    <string name="g_community">Google+ コミュニティ</string>
+    <string name="g_plus_summary">Google+ コミュニティにアクセス</string>
     <string name="ui_title">インターフェース</string>
     <string name="display_animations_title">表示とアニメーション</string>
     <string name="transparency_porn_title">パネル</string>
@@ -11,10 +12,10 @@
     <string name="statubar_title">ステータスバー</string>
     <string name="lockscreen_title">ロック画面</string>
     <string name="systemui_tuner_title">システムUI調整ツール</string>
-    <string name="aicp_downloads_title">ダウンロード</string>
-    <string name="dwnld_summary">使用中の機種向けAICPのダウンロードページにアクセス</string>
-    <string name="aicp_gerrit_title">Gerrit</string>
-    <string name="gerrit_summary">Gerritにアクセスして私たちが何に取り組んでいるのかを知る</string>
+    <string name="aicp_downloads_title">dwnld.aicp-rom.com</string>
+    <string name="dwnld_summary">使用中の機種向けAICPの最新版をダウンロード</string>
+    <string name="aicp_gerrit_title">gerrit.aicp-rom.com</string>
+    <string name="gerrit_summary">Gerritで私たちが何に取り組んでいるのかを知る</string>
 
     <!-- Switch On/Off  -->
     <string name="switch_on_text">ON</string>
@@ -149,6 +150,41 @@
     <!-- Power menu on lock screen -->
     <string name="powermenu_lockscreen_title">ロック画面での電源メニュー</string>
     <string name="powermenu_lockscreen_summary">ロック画面でも電源メニューを表示する</string>
+    <!-- ROm Stats -->
+    <!-- Main -->
+    <string name="stats_title">利用統計</string>
+    <string name="stats_summary">匿名の統計をオプトイン/アウトします</string>
+
+    <!-- Notification -->
+    <string name="notification_ticker">統計をオプトインしました</string>
+    <string name="notification_title">AICP 統計</string>
+    <string name="notification_desc">匿名の統計を有効/無効にします</string>
+
+    <string name="pref_settings">設定</string>
+    <string name="enable_reporting_title">レポートを有効にする</string>
+    <string name="disable_reporting_persistent">オプトアウトする</string>
+    <string name="preview_data_title">データのプレビュー</string>
+    <string name="preview_data_summary">%s</string>
+    <string name="view_stats_title">統計ページへアクセス</string>
+    <string name="anonymous_learn_more">もっと知る</string>
+
+    <string name="last_report_on">最後に送信した日</string>
+    <string name="reporting_interval">レポート間隔</string>
+    <plurals name="reporting_interval_days">
+        <item quantity="one">1日ごと</item>
+        <item quantity="other">%d日ごとs</item>
+    </plurals>
+    <string name="next_report_on">次の送信日</string>
+
+    <!-- Anonymous Statistics - Preview -->
+    <string name="preview_id_title">ユニークID</string>
+    <string name="preview_device_title">端末名</string>
+    <string name="preview_version_title">バージョン</string>
+    <string name="preview_country_title">国/地域</string>
+    <string name="preview_carrier_title">携帯キャリア</string>
+    <string name="preview_romname_title">ROM名</string>
+    <string name="preview_romversion_title">AICPバージョン</string>
+    <string name="preview_buildtype_title">ビルド種別</string>
 
    <!-- Lock screen wallpaper -->
    <string name="lockscreen_category_title">壁紙</string>
@@ -210,6 +246,15 @@
     <!-- AdAway -->
     <string name="adaway_settings_title">AdAway</string>
 
+
+    <!--Preference Categories-->
+    <string name ="anim">アニメーションの挙動</string>
+    <string name ="indicators">ステータスバー上のインジケータ</string>
+    <string name="quicksettings_tiles_category">クイック設定パネルのカスタマイズ</string>
+    <string name ="header_tweaks">ヘッダ</string>
+    <string name ="Misc">その他</string>
+    <string name ="cab">[全てを終了]ボタンの挙動</string>
+
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">指紋認証のバイブレーション</string>
     <string name="fprint_sucess_vib_summary">指紋認証に成功した際にバイブレーションを作動させる</string>
@@ -219,10 +264,17 @@
     <string name="show_fourg_title">LTE表示の代わりに4G表示を使用する</string>
     <string name="show_fourg_summary">ステータスバーの表示をLTEから4Gに置き換える</string>
 
+    <!-- Heads up switch -->
+    <string name="heads_up_switch_title">ヘッドアップ通知</string>
+    <string name="heads_up_switch_summary">切り替えはシステムレベルで反映され、アプリごとではありません</string>
+
     <!-- Optional screenshot type -->
     <string name="screenshot_type_title">スクリーンショットの種類</string>
     <string name="screenshot_type_fullscreen">画面全体のスクリーンショットを取得する</string>
     <string name="screenshot_type_partial">スクリーンショットを撮りたい範囲をドラッグで選択する</string>
+    <!-- Lock screen Am/Pm switch -->
+    <string name="lock_screen_hide_ampm_title">午前/午後の非表示</string>
+    <string name="lock_screen_hide_ampm_summary_on">ロック画面の午前/午後は非表示になっています</string>
+    <string name="lock_screen_hide_ampm_summary_off">ロック画面に午前/午後が表示されます</string>
 
 </resources>
-
