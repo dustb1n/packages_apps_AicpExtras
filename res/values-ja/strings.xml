@@ -12,10 +12,10 @@
     <string name="statubar_title">ステータスバー</string>
     <string name="lockscreen_title">ロック画面</string>
     <string name="systemui_tuner_title">システムUI調整ツール</string>
-    <string name="aicp_downloads_title">dwnld.aicp-rom.com</string>
-    <string name="dwnld_summary">使用中の機種向けAICPの最新版をダウンロード</string>
-    <string name="aicp_gerrit_title">gerrit.aicp-rom.com</string>
-    <string name="gerrit_summary">Gerritで私たちが何に取り組んでいるのかを知る</string>
+    <string name="aicp_downloads_title">ダウンロード</string>
+    <string name="dwnld_summary">最新のビルドをダウンロードする</string>
+    <string name="aicp_gerrit_title">Gerrit Code Review</string>
+    <string name="gerrit_summary">GerritでAICPの開発の最前線を知る</string>
 
     <!-- Switch On/Off  -->
     <string name="switch_on_text">ON</string>
@@ -150,6 +150,7 @@
     <!-- Power menu on lock screen -->
     <string name="powermenu_lockscreen_title">ロック画面での電源メニュー</string>
     <string name="powermenu_lockscreen_summary">ロック画面でも電源メニューを表示する</string>
+
     <!-- ROm Stats -->
     <!-- Main -->
     <string name="stats_title">利用統計</string>
@@ -159,7 +160,6 @@
     <string name="notification_ticker">統計をオプトインしました</string>
     <string name="notification_title">AICP 統計</string>
     <string name="notification_desc">匿名の統計を有効/無効にします</string>
-
     <string name="pref_settings">設定</string>
     <string name="enable_reporting_title">レポートを有効にする</string>
     <string name="disable_reporting_persistent">オプトアウトする</string>
@@ -172,7 +172,7 @@
     <string name="reporting_interval">レポート間隔</string>
     <plurals name="reporting_interval_days">
         <item quantity="one">1日ごと</item>
-        <item quantity="other">%d日ごとs</item>
+        <item quantity="other">%d日ごと</item>
     </plurals>
     <string name="next_report_on">次の送信日</string>
 
@@ -205,6 +205,41 @@
     <string name="enable_task_manager_title">タスクマネージャー</string>
     <string name="enable_task_manager_summary">タスクマネージャーの有効/無効切り替えボタンを通知領域のヘッダーに表示します</string>
 
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">トースト通知のアニメーション</string>
+    <string name="toast_none_animation">なし</string>
+    <string name="toast_default_animation">デフォルト</string>
+    <string name="toast_fade_animation">Fade</string>
+    <string name="toast_SlideRight_animation">Slide right</string>
+    <string name="toast_SlideLeft_animation">Slide left</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Fast fade</string>
+    <string name="toast_GrowFade_animation">Grow fade</string>
+    <string name="toast_GrowFadeCenter_animation">Grow fade center</string>
+    <string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
+    <string name="toast_Translucent_animation">Translucent</string>
+    <string name="toast_SlideLeftRight_animation">Slide left to right</string>
+    <string name="toast_SlideRightLeft_animation">Slide right to left</string>
+
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">電源メニューのアニメーション</string>
+    <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
+    <string name="power_menu_animation_dialog_title">電源メニューのアニメーションを選択</string>
+    <string name="power_menu_animation_aosp">AOSP (デフォルト)</string>
+    <string name="power_menu_animation_bottom">Bottom</string>
+    <string name="power_menu_animation_top">Top</string>
+    <string name="power_menu_animation_rotate">Rotation</string>
+    <string name="power_menu_animation_xylon">Fly</string>
+    <string name="power_menu_animation_slide">Slide</string>
+    <string name="power_menu_animation_turn">Turn</string>
+    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
+    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+
     <!-- Statusbar AICP logo -->
     <string name="status_bar_logo_category_title">ステータスバー上のロゴ</string>
     <string name="status_bar_aicp_logo_title">AICP ロゴ</string>
@@ -218,7 +253,6 @@
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">音楽アプリを起動</string>
     <string name="headset_connect_player_summary">ヘッドセット接続時にデフォルトの音楽アプリを起動する</string>
-
 
     <!-- Membar recents -->
     <string name="recents_show_membar_title">メモリ使用量バー</string>
@@ -246,32 +280,45 @@
     <!-- AdAway -->
     <string name="adaway_settings_title">AdAway</string>
 
-
     <!--Preference Categories-->
-    <string name ="anim">アニメーションの挙動</string>
-    <string name ="indicators">ステータスバー上のインジケータ</string>
+    <string name="anim">アニメーションの挙動</string>
+    <string name="indicators">ステータスバー上のインジケータ</string>
     <string name="quicksettings_tiles_category">クイック設定パネルのカスタマイズ</string>
-    <string name ="header_tweaks">ヘッダ</string>
-    <string name ="Misc">その他</string>
-    <string name ="cab">[全てを終了]ボタンの挙動</string>
+    <string name="header_tweaks">ヘッダ</string>
+    <string name="Misc">その他</string>
+    <string name="cab">[全てを終了]ボタンの挙動</string>
 
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">指紋認証のバイブレーション</string>
     <string name="fprint_sucess_vib_summary">指紋認証に成功した際にバイブレーションを作動させる</string>
 
-
     <!-- Statusbar 4G LTE switch -->
     <string name="show_fourg_title">LTE表示の代わりに4G表示を使用する</string>
     <string name="show_fourg_summary">ステータスバーの表示をLTEから4Gに置き換える</string>
 
+    <!-- SystemUI restart prompt -->
+    <string name="systemui_restart_title">警告</string>
+    <string name="systemui_restart_message">設定を正しく反映させるためにシステムUIは再起動します。</string>
+
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">ティッカー</string>
+    <string name="ticker_title">ステータスバー上のティッカー</string>
+    <string name="ticker_screen_summary">ティッカーをカスタマイズする</string>
+    <string name="ticker_summary">旧来のステータスバー上のティッカーを有効にする</string>
+    <string name="ticker_restore_defaults_title">デフォルトに戻す</string>
+    <string name="text_title">テキスト</string>
+    <string name="icon_title">アイコン</string>
+    <string name="colors_title">色の設定</string>
+
     <!-- Heads up switch -->
     <string name="heads_up_switch_title">ヘッドアップ通知</string>
-    <string name="heads_up_switch_summary">切り替えはシステムレベルで反映され、アプリごとではありません</string>
+    <string name="heads_up_switch_summary">切り替えはシステムレベルで反映されます。アプリごとではありません</string>
 
     <!-- Optional screenshot type -->
     <string name="screenshot_type_title">スクリーンショットの種類</string>
     <string name="screenshot_type_fullscreen">画面全体のスクリーンショットを取得する</string>
     <string name="screenshot_type_partial">スクリーンショットを撮りたい範囲をドラッグで選択する</string>
+
     <!-- Lock screen Am/Pm switch -->
     <string name="lock_screen_hide_ampm_title">午前/午後の非表示</string>
     <string name="lock_screen_hide_ampm_summary_on">ロック画面の午前/午後は非表示になっています</string>
