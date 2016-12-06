@@ -16,6 +16,7 @@
     <string name="dwnld_summary">最新のビルドをダウンロードする</string>
     <string name="aicp_gerrit_title">Gerrit Code Review</string>
     <string name="gerrit_summary">GerritでAICPの開発の最前線を知る</string>
+    <string name="settings_activity_title">AICP Extrasの設定</string>
 
     <!-- Switch On/Off  -->
     <string name="switch_on_text">ON</string>
@@ -62,6 +63,8 @@
     <string name="disable_immersive_message_title">全画面モードのメッセージを表示しない</string>
     <string name="disable_immersive_message_summary">全画面モード時のメッセージを全て無効化する</string>
 
+    <string name="press_color_to_apply">下の表示色をタップすると設定します</string>
+
     <!-- Network traffic -->
     <string name="traffic_category">ネットワークトラフィック</string>
     <string name="traffic_title">トラフィック</string>
@@ -79,10 +82,10 @@
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
-    <string name="network_traffic_hidearrow">矢印を非表示</string>
-    <string name="network_traffic_hidearrow_summary">トラフィックモニターの矢印を隠す</string>
     <string name="network_traffic_autohide">自動的に隠す</string>
     <string name="network_traffic_autohide_summary">非アクティブ時にトラフィックモニターを非表示にする</string>
+    <string name="network_traffic_hidearrow">矢印を非表示</string>
+    <string name="network_traffic_hidearrow_summary">トラフィックモニターの矢印を隠す</string>
     <string name="network_traffic_autohide_threshold">非アクティブ判定のしきい値</string>
     <string name="ok">OK</string>
     <string name="cancel">キャンセル</string>
@@ -160,6 +163,7 @@
     <string name="notification_ticker">統計をオプトインしました</string>
     <string name="notification_title">AICP 統計</string>
     <string name="notification_desc">匿名の統計を有効/無効にします</string>
+
     <string name="pref_settings">設定</string>
     <string name="enable_reporting_title">レポートを有効にする</string>
     <string name="disable_reporting_persistent">オプトアウトする</string>
@@ -171,7 +175,6 @@
     <string name="last_report_on">最後に送信した日</string>
     <string name="reporting_interval">レポート間隔</string>
     <plurals name="reporting_interval_days">
-        <item quantity="one">1日ごと</item>
         <item quantity="other">%d日ごと</item>
     </plurals>
     <string name="next_report_on">次の送信日</string>
@@ -186,9 +189,9 @@
     <string name="preview_romversion_title">AICPバージョン</string>
     <string name="preview_buildtype_title">ビルド種別</string>
 
-   <!-- Lock screen wallpaper -->
-   <string name="lockscreen_category_title">壁紙</string>
-   <string name="lockscreen_wallpaper_title">ロック画面の壁紙</string>
+    <!-- Lock screen wallpaper -->
+    <string name="lockscreen_category_title">壁紙</string>
+    <string name="lockscreen_wallpaper_title">ロック画面の壁紙</string>
 
     <!-- OmniSwitch -->
     <string name="omniswitch_category_title">OmniSwitch</string>
@@ -209,36 +212,12 @@
     <string name="toast_animation_title">トースト通知のアニメーション</string>
     <string name="toast_none_animation">なし</string>
     <string name="toast_default_animation">デフォルト</string>
-    <string name="toast_fade_animation">Fade</string>
-    <string name="toast_SlideRight_animation">Slide right</string>
-    <string name="toast_SlideLeft_animation">Slide left</string>
-    <string name="toast_Xylon_animation">Xylon</string>
-    <string name="toast_Toko_animation">Toko</string>
-    <string name="toast_Tn_animation">Tn</string>
-    <string name="toast_Honami_animation">Honami</string>
-    <string name="toast_FastFade_animation">Fast fade</string>
-    <string name="toast_GrowFade_animation">Grow fade</string>
-    <string name="toast_GrowFadeCenter_animation">Grow fade center</string>
-    <string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
-    <string name="toast_Translucent_animation">Translucent</string>
-    <string name="toast_SlideLeftRight_animation">Slide left to right</string>
-    <string name="toast_SlideRightLeft_animation">Slide right to left</string>
 
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">電源メニューのアニメーション</string>
     <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
     <string name="power_menu_animation_dialog_title">電源メニューのアニメーションを選択</string>
     <string name="power_menu_animation_aosp">AOSP (デフォルト)</string>
-    <string name="power_menu_animation_bottom">Bottom</string>
-    <string name="power_menu_animation_top">Top</string>
-    <string name="power_menu_animation_rotate">Rotation</string>
-    <string name="power_menu_animation_xylon">Fly</string>
-    <string name="power_menu_animation_slide">Slide</string>
-    <string name="power_menu_animation_turn">Turn</string>
-    <string name="power_menu_animation_fly">Glow</string>
-    <string name="power_menu_animation_card">3D</string>
-    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
 
     <!-- Statusbar AICP logo -->
     <string name="status_bar_logo_category_title">ステータスバー上のロゴ</string>
@@ -280,6 +259,13 @@
     <!-- AdAway -->
     <string name="adaway_settings_title">AdAway</string>
 
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_style_title">タイルタップ時のアニメーション</string>
+    <string name="qs_tile_animation_duration_title">タイルタップ時のアニメーション時間</string>
+    <string name="qs_tile_animation_style_off">アニメーションなし</string>
+    <string name="qs_tile_animation_style_flip">左右に回転</string>
+    <string name="qs_tile_animation_style_rotate">上下に回転</string>
+
     <!--Preference Categories-->
     <string name="anim">アニメーションの挙動</string>
     <string name="indicators">ステータスバー上のインジケータ</string>
@@ -292,9 +278,30 @@
     <string name="fprint_sucess_vib_title">指紋認証のバイブレーション</string>
     <string name="fprint_sucess_vib_summary">指紋認証に成功した際にバイブレーションを作動させる</string>
 
+    <string name="ae_custom_colors_title">外観を変更する</string>
+    <string name="ae_custom_colors_summaries">AICP Extrasの外観を変更する</string>
+    <string name="ae_drawer_opacity_title">ドロワーの不透明度</string>
+    <string name="ae_drawer_bg_color_title">ドロワーの色</string>
+    <string name="ae_settings_restore_defaults_title">デフォルトに戻す</string>
+    <string name="ae_header_bg_image_opacity_title">ドロワーに表示されるヘッダーの不透明度</string>
+    <string name="ae_nav_drawer_checked_text_title">選択中の設定の色</string>
+    <string name="ae_nav_drawer_unchecked_text_title">選択していない設定の色</string>
+    <string name="ae_settings_summary_title">AICP Extras説明文の変更</string>
+    <string name="custom_summary_title">AE説明文の変更</string>
+    <string name="custom_summary_explain">表示したい説明文を入力してください。デフォルトに戻すには空欄のままOKを押します。</string>
+    <string name="custom_summary_notset">設定アプリに表示されるAICP Extrasの説明文を変更する</string>
+
     <!-- Statusbar 4G LTE switch -->
     <string name="show_fourg_title">LTE表示の代わりに4G表示を使用する</string>
     <string name="show_fourg_summary">ステータスバーの表示をLTEから4Gに置き換える</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">タップ時のバイブ</string>
+    <string name="quick_settings_vibrate_summary">タイルをタップした際にバイブレーションを作動させる</string>
+
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">高度なデータ通信タイル</string>
+    <string name="qs_advanced_data_summary">タップした際にデータ通信の詳細を表示する</string>
 
     <!-- SystemUI restart prompt -->
     <string name="systemui_restart_title">警告</string>
