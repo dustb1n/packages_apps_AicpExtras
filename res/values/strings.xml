@@ -1,4 +1,22 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2015-2016 Android Ice Cold Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" translatable="false">AICP Extras</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -319,7 +337,7 @@
     <string name="powermenu_lockscreen_title">Power menu on lock screen</string>
     <string name="powermenu_lockscreen_summary">Show power menu on the lock screen</string>
 
-    <!-- ROm Stats -->
+    <!-- ROM Stats -->
     <!-- Main -->
     <string name="stats_title">Stats</string>
     <string name="stats_summary">Opt in/out for anonymous stats</string>
@@ -378,13 +396,13 @@
     <string name="trigger_bottom_title">Trigger height</string>
     <string name="trigger_bottom_summary">Adjust the height of the trigger area</string>
 
-   <!-- Lock screen wallpaper -->
-   <string name="lockscreen_category_title">Wallpaper</string>
-   <string name="lockscreen_wallpaper_title">Lock screen Wallpaper</string>
-   <string name="lockscreen_wallpaper_set_title">Set new wallpaper</string>
-   <string name="lockscreen_wallpaper_set_summary">Reboot is needed</string>
-   <string name="lockscreen_wallpaper_clear_title">Return to default</string>
-   <string name="reset_lockscreen_wallpaper">Lock screen wallpaper set back to default</string>
+    <!-- Lock screen wallpaper -->
+    <string name="lockscreen_category_title">Wallpaper</string>
+    <string name="lockscreen_wallpaper_title">Lock screen Wallpaper</string>
+    <string name="lockscreen_wallpaper_set_title">Set new wallpaper</string>
+    <string name="lockscreen_wallpaper_set_summary">Reboot is needed</string>
+    <string name="lockscreen_wallpaper_clear_title">Return to default</string>
+    <string name="reset_lockscreen_wallpaper">Lock screen wallpaper set back to default</string>
 
     <!-- OmniSwitch -->
     <string name="omniswitch_category_title">OmniSwitch</string>
