@@ -173,6 +173,7 @@
     <string name="select_custom_app_title">Select custom app</string>
     <string name="select_custom_activity_title">Select custom activity</string>
     <string name="profile_applist_title">Applications</string>
+
     <!-- Power menu on lock screen -->
     <string name="powermenu_lockscreen_title">Power menu on lock screen</string>
     <string name="powermenu_lockscreen_summary">Show power menu on the lock screen</string>
@@ -245,6 +246,7 @@
 
     <!-- AOKP custom system animations -->
     <string name="animation_duration_default">Default</string>
+
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast animation</string>
     <string name="toast_none_animation">None</string>
@@ -332,17 +334,6 @@
     <string name="qs_rows_landscape_title">Rows (landscape)</string>
     <string name="qs_columns_title">Columns</string>
     <string name="sysui_qqs_count_title">Small QS tiles</string>
-
-    <!-- Header image shadow -->
-    <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-    <string name="unit_percent">\u0025</string>
-
-    <!-- Header text shadow and color -->
-    <string name="status_bar_custom_header_text_shadow_title">Header text shadow</string>
-    <string name="status_bar_custom_header_text_shadow_summary">For better visibility on themed headers</string>
-    <string name="status_bar_custom_header_text_shadow_color_title">Header text shadow color</string>
-    <string name="unit_percent">\u0025</string>
 
     <!-- Tiles animation style  -->
     <string name="qs_tile_animation_style_title">Tiles animation style</string>
