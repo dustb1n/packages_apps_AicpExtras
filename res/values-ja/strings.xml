@@ -35,8 +35,8 @@
     <string name="dwnld_summary">最新のビルドをダウンロードする</string>
     <string name="aicp_gerrit_title">Gerrit Code Review</string>
     <string name="gerrit_summary">GerritでAICPの開発の最前線を知る</string>
-    <string name="hidden_anim_more_title">もっと？</string>
-    <string name="hidden_anim_more_nice">いいぞ</string>
+    <string name="hidden_anim_more_title">ﾕｯｶﾘｰﾝ？</string>
+    <string name="hidden_anim_more_nice">ゆかマキはいいぞ</string>
     <string name="continue_title">続ける</string>
     <string name="settings_activity_title">AICP Extrasの設定</string>
     <string name="recents_panel_title">アプリ履歴</string>
@@ -254,6 +254,7 @@
     <string name="qs_tile_animation_duration_default">デフォルト</string>
     <string name="quicksettings_tiles_category">クイック設定パネルの設定</string>
     <string name="Misc">その他の設定</string>
+
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">指紋認証のバイブレーション</string>
     <string name="fprint_sucess_vib_summary">指紋認証に成功した際にバイブレーションを作動させる</string>
