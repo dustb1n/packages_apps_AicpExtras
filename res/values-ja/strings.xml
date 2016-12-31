@@ -34,6 +34,7 @@
     <string name="aicp_downloads_title">ダウンロード</string>
     <string name="dwnld_summary">最新のビルドをダウンロードする</string>
     <string name="aicp_gerrit_title">Gerrit Code Review</string>
+    <string name="ae_version_title">AICP Extras バージョン</string>
     <string name="gerrit_summary">GerritでAICPの開発の最前線を知る</string>
     <string name="hidden_anim_more_title">ﾕｯｶﾘｰﾝ？</string>
     <string name="hidden_anim_more_nice">ゆかマキはいいぞ</string>
@@ -51,7 +52,7 @@
 
     <!-- Change Log -->
     <string name="changelog_title">更新履歴</string>
-    <string name="changelog_title_summary">ROMの最近の更新を確認します</string>
+    <string name="changelog_title_summary">AICPの最近の更新を確認します</string>
     <string name="changelog_error">更新履歴の読み込みに失敗しました</string>
 
     <!-- Toast Icons -->
@@ -272,15 +273,10 @@
     <string name="ae_settings_summary_title">AICP Extras説明文の変更</string>
     <string name="custom_summary_title">AE説明文の変更</string>
     <string name="custom_summary_explain">表示したい説明文を入力してください。デフォルトに戻すには空欄のままOKを押します。</string>
-    <string name="custom_summary_notset">設定アプリに表示されるAICP Extrasの説明文を変更する</string>
 
     <!-- Statusbar 4G LTE switch -->
     <string name="show_fourg_title">LTE表示の代わりに4G表示を使用する</string>
     <string name="show_fourg_summary">ステータスバーの表示をLTEから4Gに置き換える</string>
-
-    <!-- Advanced data tile -->
-    <string name="qs_advanced_data_title">高度なデータ通信タイル</string>
-    <string name="qs_advanced_data_summary">タップした際にデータ通信の詳細を表示する</string>
 
     <!-- SystemUI restart prompt -->
     <string name="systemui_restart_title">警告</string>
@@ -295,10 +291,6 @@
     <string name="text_title">テキスト</string>
     <string name="icon_title">アイコン</string>
     <string name="colors_title">色の設定</string>
-
-    <!-- Heads up switch -->
-    <string name="heads_up_switch_title">ヘッドアップ通知</string>
-    <string name="heads_up_switch_summary">切り替えはシステムレベルで反映されます。アプリごとではありません</string>
 
     <!-- Optional screenshot type -->
     <string name="screenshot_type_title">スクリーンショットの種類</string>
@@ -369,5 +361,27 @@
     <string name="omniswitch_start_settings_summary">OmniSwitchの設定を開きます</string>
     <string name="omniswitch_first_time_title">警告</string>
     <string name="omniswitch_first_time_message">OmniSwitchをアプリ履歴に使用する場合、あらかじめOmniSwitchを有効化していることを確認してください</string>
+
+    <!-- SlimSizer  -->
+    <string name="sizer_title">システムアプリの削除ツール</string>
+    <string name="caution">警告！</string>
+    <string name="sizer_message_startup">このツールはシステムアプリの削除を可能にします。削除しても問題がないことを把握しているアプリに限り、細心の注意を払って使用してください。</string>
+    <string name="sizer_message_delete">本当にこのアプリを削除しますか？</string>
+    <string name="btn_delete">選択したアプリを削除する</string>
+    <string name="delete_progress_title">削除中</string>
+    <string name="delete_progress">選択されたファイルを削除しています...</string>
+    <string name="delete_success">削除しました</string>
+    <string name="delete_fail">削除に失敗しました</string>
+    <string name="sizer_message_sdnowrite">SDカードに書き込めませんでした</string>
+    <string name="sizer_message_sdnoread">SDカードを読み込めませんでした</string>
+    <string name="system_app_remover">システムアプリの削除ツール</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Bluetoothデバイスのバッテリ情報を表示</string>
+    <string name="bluetooth_battery_summary">利用可能な場合、現在接続しているBluetoothデバイスのバッテリ情報を表示します。</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">スワイプでスクリーンショット</string>
+    <string name="three_finger_gesture_summary">3本指でスワイプしてスクリーンショットを取得する</string>
 
 </resources>
